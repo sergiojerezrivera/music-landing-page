@@ -1,0 +1,70 @@
+.container {
+    max-width: 1200px;
+    margin: 0px 0px 0px 50px;
+    padding: 0 40px;
+    flex-grow: 1;
+}
+
+h1 {
+    font-weight: normal;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.section-cards {
+    
+    justify-content: space-between;
+    align-content: space-between;
+    margin-right: 150px;
+}
+
+.cards {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.cards a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.cards p {
+    margin-top: -4px;
+}
+
+.cards img {
+    margin-left: 14px;
+}
+
+.cards a .more{
+    margin-left: 17px;
+}
+
+.card {
+    background-color: #202027;
+    margin-right: 50px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.discover-main-section {
+    display: flex;
+}
+
+
+@media (max-width: 900px) {
+    .discover-main-section {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .covers {
+      width: 80vw;
+      max-width: inherit;
+      margin: 2rem 0;
+    }
+  }
+
+ 
